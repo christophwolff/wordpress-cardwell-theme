@@ -1,0 +1,4 @@
+/node_modules
+/browsersyncconfig.json
+/dev/*
+/.DS_Store
