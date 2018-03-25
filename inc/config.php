@@ -49,7 +49,7 @@ if (!function_exists('mix')) {
      * Check if we are in development or production
      * @param string $path
      */
-    function mix(string $path)
+    function mix($path)
     {
         static $manifest;
         $enviroment = WP_DEBUG ? '/dev' : '/dist';
