@@ -1,6 +1,6 @@
 {
   "name": "wordpress-cardwell-theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Theme for christophwolff.de",
   "main": "index.js",
   "repository": "https://github.com/christophwolff/wordpress-cardwell-theme",
