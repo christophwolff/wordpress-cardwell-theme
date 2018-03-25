@@ -1,0 +1,75 @@
+#footer {
+    margin-top: 100px;
+    padding: 25px 0;
+    background: $br-blue;
+    color: $white;
+    .br-logo {
+        fill: #ffffff;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        list-style: none;
+        margin-bottom: $spacer-br/2;
+    }
+    a {
+        color: $light-grey;
+        &:hover {
+            color: $white;
+        }
+        img.brLogo {
+            width: 40px;
+        }
+        img.tagesschauLogo {
+            width: 140px;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .site-info {
+        padding: $spacer-br*2 0;
+        font-size: 12px;
+        line-height: 26px;
+        li {
+            display: block;
+        }
+    }
+}
+.footer-items {
+    display: flex;
+    justify-content: center;
+    svg {
+        fill:white;
+    }
+}
+@include media-breakpoint-up(md) {
+    .footer {
+        .site-info {
+            text-align: right;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .footer {
+        li {
+            display: inline;
+            margin-bottom: 0;
+            margin-right: 30px;
+        }
+        a {
+            img.brLogo {
+                width: 40px;
+            }
+            img.tagesschauLogo {
+                width: 140px;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

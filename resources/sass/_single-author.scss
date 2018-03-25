@@ -1,0 +1,25 @@
+#single-author {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.author-posts {
+		margin-top: 20px;
+		.profile-legend {
+			margin-bottom: 10px;
+		}
+		.posts {
+			font-size: 14px;
+			li {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.profile, .author-posts {
+		.profile-legend {
+			font-style: italic;
+			color: $br-blue;
+		}
+	}
+}

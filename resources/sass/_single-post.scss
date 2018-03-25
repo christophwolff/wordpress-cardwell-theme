@@ -1,0 +1,39 @@
+.single-article {
+	.posted-on span {
+		color: $br-grey;
+		display: block;
+		font-family: 'Heebo', sans-serif;
+		font-weight: 500;
+		font-size: 1.125rem;
+	}
+	h1 {
+	    margin: 40px 0 15px 0;
+		font-size: 28px;
+		@include media-breakpoint-up(sm) {
+
+			font-size: 35px;
+		}
+		@include media-breakpoint-up(lg) {
+			font-size: 55px;
+		}
+		text-decoration: none;
+		color: rgba(0,0,0,.84);
+		line-height: 1.2;
+	}
+	.post-image {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		@include media-breakpoint-up(sm) {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+		@include media-breakpoint-up(xl) {
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+		}
+	}
+	.section-footer {
+		font-size: 32px;
+		color: $br-blue;
+	}
+}
