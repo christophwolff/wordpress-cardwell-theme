@@ -1,0 +1,19 @@
+.wp-block-image img {
+  display: block;
+  width: 100%;
+}
+.wp-block-image.alignwide figcaption {
+  position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	bottom: -40px;
+}
+.wp-block-image {
+	position: relative;
+	margin-bottom: 4rem;
+	margin-top: 3rem;
+}
+.wp-block-image.alignwide{
+	box-shadow: 0px 1px 38px rgba(0,0,0,0.6)
+}

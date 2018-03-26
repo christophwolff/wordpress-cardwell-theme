@@ -14,6 +14,16 @@ function theme_register_scripts () {
 	wp_enqueue_script( 'br-boilerplate-theme-js' );
 }
 
+
+/**
+* Enqueue block styles on frontend and in editor
+*
+*/
+function cardwell_block_styles() {
+   wp_enqueue_style( 'mytheme-blocks', mix('styles/blocks.css') );
+}
+add_action( 'enqueue_block_assets',  __NAMESPACE__ . '\\cardwell_block_styles' );
+
 /**
  * Disable the emoji's
  */

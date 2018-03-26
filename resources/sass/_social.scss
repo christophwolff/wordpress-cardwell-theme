@@ -1,0 +1,20 @@
+.social-shit {
+	display: flex;
+	align-items: center;
+	height: 20px;
+	.social-icon {
+		padding-left: 1rem;
+		a {
+			height: 20px;
+			display: block;
+		}
+	}
+	svg {
+		transition: all .2s ease;
+		width: 20px;
+		height: 20px;
+		&:hover {
+			fill: $br-blue;
+		}
+	}
+}

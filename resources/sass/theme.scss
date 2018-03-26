@@ -21,6 +21,7 @@
 @import "mixins/css3-prefix";
 
 
+@import "main";
 @import "typography";
 @import "nav";
 @import "site-title";
@@ -45,12 +46,11 @@
  */
 
 @import "tags";
+@import "social";
 
 /*
- * Blocks
+ * Development
  */
-
-@import "blocks";
 
 @import "development";
 

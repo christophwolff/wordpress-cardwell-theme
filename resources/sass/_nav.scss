@@ -69,7 +69,12 @@
 			}
 			&.current-menu-item, &.current_page_item {
 				a {
-					color: rgba(0,0,0,1);
+					color: $br-blue;
+				}
+			}
+			&.menu-item-home {
+				a {
+					color: black;
 				}
 			}
 		}

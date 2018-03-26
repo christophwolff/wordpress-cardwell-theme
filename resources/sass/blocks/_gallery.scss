@@ -1,0 +1,10 @@
+.wp-block-gallery .blocks-gallery-item figcaption {
+    margin-top: .5em;
+    color: #6c7781!important;
+    text-align: center!important;
+		font-size: 13px!important;
+		background-color: transparent!important;
+}
+.wp-block-gallery:not(.components-placeholder) {
+  padding: 0;
+}
