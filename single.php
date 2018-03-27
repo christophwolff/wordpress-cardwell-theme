@@ -9,11 +9,11 @@
 get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<article class="container single-article">
+<article class="container single-article mt-5">
 	<div class="row">
 		<div class="col-12 col-md-8 offset-md-2">
+			<?php \BR\WordPress\helper\br_posted_on(); ?>
 			<h1 class="heading"><?php the_title(); ?></h2>
-			<span class="posted-on"><?php \BR\WordPress\helper\br_posted_on(); ?></span>
 		</div>
 	</div>
 	<div class="row">

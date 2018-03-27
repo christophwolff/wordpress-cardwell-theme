@@ -8,7 +8,7 @@
 
 #main-nav {
 	z-index: 1;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.84);
     background-color: white;
@@ -58,7 +58,7 @@
 				display: inline-block;
 				font-size: 1.7rem;
 				@include media-breakpoint-up(md) {
-					font-size: 1rem;
+					font-size: 1.1rem;
 				}
 				.no-touchevents &:hover {
 					color: $br-blue;
