@@ -114,7 +114,7 @@ function br_posted_on() {
 	$time_string = esc_attr( get_the_date( ) );
 
 	$posted_on = sprintf(
-		'<span>Veröffentlicht am ' . $time_string . '</span>'
+		'<span>' . $time_string . '</span>'
 	);
 
 	$byline = sprintf(
