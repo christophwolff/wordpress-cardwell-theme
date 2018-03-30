@@ -11,7 +11,9 @@ function theme_register_scripts () {
     wp_enqueue_script( 'br-boilerplate-turbolinks-js' );
     wp_register_script('br-boilerplate-typed-js', mix('scripts/vendor/typed.min.js'), '', '', false);
     wp_enqueue_script( 'br-boilerplate-typed-js' );
-	wp_enqueue_script( 'br-boilerplate-theme-js' );
+    wp_enqueue_script( 'br-boilerplate-theme-js' );
+    
+    wp_enqueue_script( 'comment-reply' );
 }
 
 

@@ -1,0 +1,36 @@
+.latest-posts-container {
+	display: flex;
+	align-items: baseline;
+	flex-flow: column wrap;
+	margin-top: 3rem;
+	.lastest-posts-item {
+		display: flex;
+		align-items: baseline;
+		flex-basis: column;
+		margin-top: 10px;
+		flex-direction: column;
+	}
+	h4 {
+		&.heading {
+			margin-top: 5px;
+		}
+		a {
+			font-size: 1.225rem;
+			color: rgba(0, 0, 0, 0.79);
+			&:hover {
+				color: $br-blue;
+			}
+		}
+	}
+	.posted-on {
+		margin-right: 2rem;
+	}
+}
+
+.posted-on {
+	color: $br-grey;
+	display: block;
+	font-family: 'Yantramanav', sans-serif;
+	font-weight: 500;
+	font-size: 1.125rem;
+}
