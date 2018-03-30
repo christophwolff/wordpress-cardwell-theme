@@ -46,14 +46,14 @@ get_header(); ?>
 						<?php wp_reset_query(); ?>
 						</div>
 					</div>
+					<?php 
+						// the query
+						$the_query = new WP_Query( array(
+							'posts_per_page' => 2,
+						)); 
+					?>
+					<?php if ( $the_query->have_posts() ) : ?>
 					<div class="latest-posts-container">
-						<?php 
-							// the query
-							$the_query = new WP_Query( array(
-								'posts_per_page' => 3,
-							)); 
-						?>
-						<?php if ( $the_query->have_posts() ) : ?>
 						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 						<div class="lastest-posts-item">
 							<?php \BR\WordPress\helper\br_posted_on(); ?>
@@ -65,14 +65,8 @@ get_header(); ?>
 						</div>
 						<?php endwhile; ?>
 						<?php wp_reset_postdata(); ?>
-
-						<?php else : ?>
-						<p>
-							<?php __('No News'); ?>
-						</p>
-						<?php endif; ?>
-						<?php wp_reset_postdata(); ?>
 					</div>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
