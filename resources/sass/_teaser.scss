@@ -63,9 +63,6 @@ a {
 .entry-excerpt {
 	line-height: 1.8;
 	font-size: 17px;
-	@include media-breakpoint-up(sm) {
-		font-size: 19px;
-	}
 	a {
 		text-decoration: underline;
 		color: black;
