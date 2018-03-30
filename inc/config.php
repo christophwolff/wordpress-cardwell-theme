@@ -75,3 +75,11 @@ if (!function_exists('mix')) {
         return get_template_directory_uri(). $enviroment .$manifest[$path];
     }
 }
+/**
+ * Remove # Hashbang in more link
+ */
+function remove_more_link_scroll( $link ) {
+  $link = preg_replace( '|#more-[0-9]+|', '', $link );
+  return $link;
+}
+add_filter( 'the_content_more_link', __NAMESPACE__ . '\\remove_more_link_scroll' );
