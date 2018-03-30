@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-12">
           <div class="entry-excerpt">
-            <?php the_content(''); ?>
+            <?php the_content('Weiterlesen'); ?>
           </div>
         </div>
       </div>
