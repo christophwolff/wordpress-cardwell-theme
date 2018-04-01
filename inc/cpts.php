@@ -26,7 +26,10 @@ function br_cpt_project_init() {
     'show_ui' => true,
     'show_in_menu' => true,
     'query_var' => true,
-    'rewrite' => array('slug' => __('projekte') ),
+    'rewrite' => array(
+      'slug' => __('projekte'),
+      "with_front" => false  
+    ),
     'capability_type' => 'post',
     'has_archive' => true,
     'hierarchical' => false,
