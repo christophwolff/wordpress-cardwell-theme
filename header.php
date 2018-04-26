@@ -7,14 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="turbolinks-cache-control" content="no-cache">
-	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-	<script defer>
-		WebFont.load({
-			google: {
-			families: ['Yantramanav:400,700', 'Lora:400,400i,700,700i']
-			}
-		});
-	</script>
 	<title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>

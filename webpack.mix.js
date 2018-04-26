@@ -36,6 +36,7 @@ mix.options({
 })
 
 mix.copy(`${resources}/images`, `${publicPath}/images`)
+mix.copy(`${resources}/fonts`, `${publicPath}/fonts`)
 
 mix.browserSync({
   	proxy: proxyconfig.target,
