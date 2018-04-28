@@ -3,7 +3,7 @@ hr.wp-block-separator {
 	border: 0!important;
 	text-align: center!important;
 	overflow: visible!important;
-	margin: 20px 0!important;
+	margin: 60px 0!important;
 	max-width: 100%;
 	&:before {
 		content: '...';
@@ -11,10 +11,18 @@ hr.wp-block-separator {
 		margin-left: .6em;
 		color: rgba(0,0,0,.68);
 		position: relative;
-		top: -7px;
+		top: -30px;
 		font-weight: 400;
 		font-style: italic;
 		font-size: 30px;
 		letter-spacing: .6em;
+	}
+}
+.gutenberg {
+	hr.wp-block-separator {
+		margin: 20px 0!important;
+		&:before {
+			top: -11px;
+		}
 	}
 }
