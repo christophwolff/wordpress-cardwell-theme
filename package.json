@@ -17,19 +17,19 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.23.7",
     "browser-sync-webpack-plugin": "^2.2.2",
     "cross-env": "^5.1.4",
     "jquery": "^3.3.1",
-    "laravel-mix": "^2.1.9",
+    "laravel-mix": "^2.1.11",
     "typed.js": "^2.0.6"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.1.0",
     "classie": "^1.0.0",
     "picturefill": "^3.0.2",
-    "plyr": "^3.0.2",
-    "swiper": "^4.2.0",
+    "plyr": "^3.2.4",
+    "swiper": "^4.2.2",
     "turbolinks": "^5.1.1"
   }
 }
