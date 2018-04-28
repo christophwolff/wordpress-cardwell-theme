@@ -26,10 +26,10 @@ if (!mix.inProduction()) {
 mix.version()
 mix.js(`${resources}/js/theme.js`, `${publicPath}/scripts`)
    .sass(`${resources}/sass/theme.scss`, `${publicPath}/styles`)
+   //Gutenberg Styles for Backend and Frontend
+   .sass(`${resources}/sass/blocks.scss`, `${publicPath}/styles`);
 mix.js(`${resources}/js/turbolinks.js`, `${publicPath}/scripts`)
-//Gutenberg Styles for Backend and Frontend
-mix.sass(`${resources}/sass/blocks.scss`, `${publicPath}/styles`);
-
+// Copy needed Vendor Files
 mix.copy(`${resources}/js/vendor/*`, `${publicPath}/scripts/vendor`).version()
 mix.options({
 	processCssUrls: false,
