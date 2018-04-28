@@ -12,7 +12,7 @@ function theme_register_scripts () {
     wp_register_script('br-boilerplate-typed-js', mix('scripts/vendor/typed.min.js'), '', '', false);
     wp_enqueue_script( 'br-boilerplate-typed-js' );
     wp_enqueue_script( 'br-boilerplate-theme-js' );
-    
+
     wp_enqueue_script( 'comment-reply' );
 }
 
@@ -25,6 +25,17 @@ function cardwell_block_styles() {
    wp_enqueue_style( 'mytheme-blocks', mix('styles/blocks.css') );
 }
 add_action( 'enqueue_block_assets',  __NAMESPACE__ . '\\cardwell_block_styles' );
+
+// /**
+// * Enqueue block styles in the gutenberg editor
+// *
+// */
+// function cardwell_editor_block_styles() {
+//    wp_enqueue_style( 'mytheme-editor-blocks', mix('styles/editor-blocks.css') );
+// }
+// // Only Editror Assets
+// add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\\cardwell_editor_block_styles' );
+
 
 /**
  * Disable the emoji's
