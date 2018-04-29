@@ -27,7 +27,7 @@ get_header(); ?>
 				        if( $q->current_post === 0 ) {
 				        	?>
 				           		<div class="col-8 offset-2 mb-3 mt-3">
-				           			<?php the_date( 'F Y' ); ?>
+				           			<h2><?php the_date( 'F Y' ); ?></h2>
 				           		</div>
 				           <?php
 				        } else {
@@ -36,7 +36,7 @@ get_header(); ?>
 				            if($current_month != $old_date) {
 				                ?>
 				           			<div class="col-8 offset-2 mb-3 mt-3">
-				           				<?php the_date( 'F Y' ); ?>
+				           				<h2><?php the_date( 'F Y' ); ?></h2>
 				           			</div>
 				           		<?php
 				            }
