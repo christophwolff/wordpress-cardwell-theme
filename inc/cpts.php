@@ -48,14 +48,17 @@ function br_cpt_project_init() {
         )
     );
    register_taxonomy( 'keyword', 'project',
-        array(
-             'hierarchical' => false,
-             'label' => __('Technologie'),
-             'query_var' => 'keyword',
-			 'rewrite' => array('slug' => __('technologie') ),
-			 'show_in_rest' => true
-        )
-    );
+    array(
+			'hierarchical' => false,
+			'label' => __('Technologie'),
+			'query_var' => 'keyword',
+	 		'rewrite' => array(
+      	'slug' => __('technologie'),
+      	'with_front' => false
+      ),
+	 		'show_in_rest' => true
+    )
+   );
   register_post_type('project',$args01);
 
 }
