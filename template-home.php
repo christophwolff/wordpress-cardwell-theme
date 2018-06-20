@@ -46,27 +46,12 @@ get_header(); ?>
 						<?php wp_reset_query(); ?>
 						</div>
 					</div>
-					<?php 
+					<?php
 						// the query
 						$the_query = new WP_Query( array(
 							'posts_per_page' => 2,
-						)); 
+						));
 					?>
-					<?php if ( $the_query->have_posts() ) : ?>
-					<div class="latest-posts-container">
-						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-						<div class="lastest-posts-item">
-							<?php \BR\WordPress\helper\br_posted_on(); ?>
-							<h4 class="heading">
-								<a href="<?php the_permalink(); ?>">
-									<?php the_title(); ?>
-								</a>
-							</h4>
-						</div>
-						<?php endwhile; ?>
-						<?php wp_reset_postdata(); ?>
-					</div>
-					<?php endif; ?>
 				</div>
 			</div>
 		</div>

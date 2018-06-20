@@ -1,4 +1,3 @@
-import Swiper from 'swiper'
 import Plyr from 'plyr'
 import Picturefill  from 'picturefill'
 import $ from 'jquery';
@@ -11,9 +10,9 @@ $( document ).ready(() => {
 });
 
 function DOMContentLoaded() {
-    var mySwiper = new Swiper('.swiper-container', {
-        loop: true, test:null
-    })
+    // var mySwiper = new Swiper('.swiper-container', {
+    //     loop: true, test:null
+    // })
 }
 document.onreadystatechange = function () {
     if (document.readyState == "interactive") {
@@ -36,12 +35,12 @@ document.addEventListener("turbolinks:load", function() {
         adminbar = adminbar.setAttribute("data-turbolinks", "false");
     }
     //initialize swiper when document ready
-    var swiper = new Swiper('.s1', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-    });
+    // var swiper = new Swiper('.s1', {
+    //     pagination: '.swiper-pagination',
+    //     paginationClickable: true,
+    //     nextButton: '.swiper-button-next',
+    //     prevButton: '.swiper-button-prev'
+    // });
 
     // Kickstart all JS Functions on Page load
     Picturefill();
