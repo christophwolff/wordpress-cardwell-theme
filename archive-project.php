@@ -9,8 +9,8 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-8 offset-2 mb-3 mt-3">
 				<h1>Projekte</h1>
-				<p class="wp-block-subhead">An diesen Projekten war ich mal mehr, mal weniger mit meiner Kernkompetenz als Frontend-Entwickler beteiligt.
-					Alle Projekte sind in unserem Sonderprojekte Team enstanden.</p>
+				<p class="wp-block-subhead">An diesen Projekten war ich mal mehr, mal weniger mit meiner Kernkompetenz als Frontend-Entwickler und PHP-Entwickler beteiligt.
+					Alle Projekte sind in unserem Sonderprojekte Team entstanden.</p>
 			</div>
 		</div>
 		<div class="row">
