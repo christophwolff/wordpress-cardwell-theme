@@ -1,14 +1,14 @@
 # br-wordpress-boilerplate-theme
 
-##Install using yarn or npm (Testet with Node v8.9.1)
+## Install using yarn or npm (Testet with Node v8.9.1)
 
 `yarn`
 or
 `npm install`
 
-##NPM Scripts
+## NPM Scripts
 
-###Build Dev Version
+### Build Dev Version
 
 Set `WP_DEBUG` in `wp-config.php` to `true`
 
@@ -16,7 +16,7 @@ Set `WP_DEBUG` in `wp-config.php` to `true`
 or
 `npm run dev`
 
-###Development with Browsersync
+### Development with Browsersync
 
 Set `WP_DEBUG` in `wp-config.php` to `true`
 
@@ -34,7 +34,7 @@ i.E.
 or
 `npm run watch`
 
-###Build a production version
+### Build a production version
 
 Set `WP_DEBUG` in `wp-config.php` to `false` if you would like to check the Theme with production files
 
@@ -42,7 +42,7 @@ Set `WP_DEBUG` in `wp-config.php` to `false` if you would like to check the Them
 or
 `npm run prod`
 
-###Release
+### Release
 Build a production version and then push the chaned dist folder to the master.
 
 ##Whats in the box
@@ -52,7 +52,7 @@ Build a production version and then push the chaned dist folder to the master.
 - [Custom Modernizr](https://modernizr.com/download/)
 - [Plyr](https://github.com/Selz/plyr)
 
-###Turbolinks Details
+### Turbolinks Details
 
 [Turbolinks Events](https://github.com/turbolinks/turbolinks#full-list-of-events)
 
