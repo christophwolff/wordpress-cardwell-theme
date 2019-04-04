@@ -45,7 +45,7 @@ or
 ### Release
 Build a production version and then push the chaned dist folder to the master.
 
-##Whats in the box
+## Whats in the box
 
 - [Swiper Slider](http://idangero.us/swiper/#.WJejT7aLRZ0)
 - [Turbolinks](https://github.com/turbolinks/turbolinks)
