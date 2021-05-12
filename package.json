@@ -29,7 +29,7 @@
     "classie": "^1.0.0",
     "picturefill": "^3.0.3",
     "plyr": "^3.6.2",
-    "swiper": "^5.4.2",
+    "swiper": "^6.5.1",
     "turbolinks": "^5.2.0"
   }
 }
